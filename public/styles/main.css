@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-clip: border-box;
+}
+
+body {
+  width: calc(100vw - (100vw - 100%));
+  overflow-x: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1em;
+}
+
+.card {
+  padding: 1em 2em;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.w-auto {
+  width: auto;
+}
+
+.m-0 {
+  margin: 0;
+}
